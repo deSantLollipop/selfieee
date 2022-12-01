@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/abc_action_bar_content_inset_material"
+    android:id="@+id/layoutSettings">
+    <!--<Button
+		android:id="@+id/select_button"
+		android:paddingLeft="24dp"
+		android:paddingRight="24dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="PICK TIME"
+		android:textSize="20dp" 
+	/>
+	<TextView
+		android:id="@+id/time_display"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:paddingTop="22dp"
+		android:text="Picked time will be displayed here"
+		android:textSize="24dp"		
+	/>-->
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:src="@drawable/cam_ico"
+        android:id="@+id/newUserProfileImage"
+        android:contentDescription="profile image"
+        android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_start_material"
+        android:layout_marginBottom="@dimen/abc_action_bar_default_height_material"
+        android:layout_gravity="center"
+	/>
+    <Button
+        android:text="Set Profile Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_style"
+        android:textColor="#fff"
+        android:id="@+id/btnProfileImage"
+        android:textSize="24dp"
+        android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_start_material"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/confirmButton"
+        android:text="Confirm"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/buttons_style"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_start_material"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/backButton"
+        android:text="Back"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:background="@drawable/buttons_style"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_start_material"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>
+

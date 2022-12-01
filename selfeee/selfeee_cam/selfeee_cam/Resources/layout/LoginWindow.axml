@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="@dimen/abc_action_bar_content_inset_material" >
+
+    <ImageView
+        android:layout_width="600px"
+        android:layout_height="600px"
+        android:layout_gravity="center"
+        android:src="@drawable/logo3"
+        android:contentDescription="logo" />
+	<TextView
+		android:text="Login"
+		android:textSize="36dp"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:gravity="center"
+		android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_start_material"
+		android:id="@+id/txtviewLogin"/>
+	<EditText
+		android:inputType="textPersonName"
+		android:textSize="18dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_start_material"
+		android:id="@+id/editNameLogin" />
+	<EditText
+		android:inputType="textPassword"
+		android:textSize="18dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_start_material"
+		android:id="@+id/editPasswordLogin" />
+	<CheckBox
+		android:text="Remember me?"
+		android:textSize="18dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_start_material"
+		android:id="@+id/checkBoxRemeberMe" />
+    <Button
+        android:text="Login"
+		android:textAllCaps="false"
+		android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_start_material"
+        android:id="@+id/btnLogin"
+		android:textColor="#fff"
+		android:background="@drawable/buttons_style" />
+	<Button
+		android:text="New User"
+		android:textAllCaps="false"
+		android:textSize="24dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_start_material"
+		android:id="@+id/btnNewUser"
+		android:textColor="#fff"
+		android:background="@drawable/buttons_style" />
+	<Button
+		android:text="Login Anonymous"
+		android:textAllCaps="false"
+		android:textSize="24dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_start_material"
+		android:id="@+id/btnAnonymous"
+		android:textColor="#fff"
+		android:background="@drawable/buttons_style" />
+
+
+</LinearLayout>

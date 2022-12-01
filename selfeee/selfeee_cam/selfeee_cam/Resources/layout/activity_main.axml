@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/drawer_layout"
+        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:fitsSystemWindows="true">
+
+        <FrameLayout
+            android:layout_height="match_parent"
+            android:layout_width="fill_parent">
+
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/photoLayout"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+			>
+
+                <GridView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/newprivatePhotos"
+                    android:columnWidth="90dp"
+                    android:numColumns="auto_fit"
+                    android:verticalSpacing="10dp"
+                    android:horizontalSpacing="10dp"
+                    android:stretchMode="columnWidth"
+                    android:gravity="top"/>
+
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16px">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".75"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:id="@+id/linearLayout1"
+                    android:paddingVertical="16px">
+
+                    <Button
+                        android:id="@+id/captureButton"
+                        android:textAllCaps="false"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Capture Image"
+                        android:layout_gravity="bottom"
+                        android:textColor="#fff"
+                        android:background="@drawable/buttons_style"/>
+
+                    <Button
+                        android:id="@+id/uploadButton"
+                        android:textAllCaps="false"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Upload Image"
+                        android:layout_gravity="bottom"
+                        android:textColor="#fff"
+                        android:background="@drawable/buttons_style"/>
+
+                    <Button
+                        android:id="@+id/makeCollage"
+                        android:textAllCaps="false"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Make Collage"
+                        android:layout_gravity="bottom"
+                        android:textColor="#fff"
+                        android:background="@drawable/buttons_style"/>
+                </LinearLayout>
+                <Button
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/btnPunk"
+                    android:textAllCaps="false"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight=".25"
+                    android:text="Are you punk?"
+                    android:layout_gravity="bottom"
+                    android:textColor="#fff"
+                    android:background="@drawable/buttons_style"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include
+                layout="@layout/toolbar" />
+        </LinearLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_height="match_parent"
+            android:layout_width="300dp"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:itemIconTint="#333"
+            app:headerLayout="@layout/nav_header" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</RelativeLayout>

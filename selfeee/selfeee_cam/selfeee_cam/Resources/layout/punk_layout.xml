@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="8dp">
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/punkResultImg"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/logo3"
+        android:contentDescription="collageImg"/>
+
+    <TextView
+        android:id="@+id/txtPunk"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#333"
+        android:textSize="54dp"
+        android:textAlignment="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="16px">
+
+        <Button
+            android:id="@+id/btnPunkBack"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Back"
+            android:layout_gravity="bottom"
+            android:textColor="#fff"
+            android:background="@drawable/buttons_style"
+			/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/txtCollage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginHorizontal="8dp"
+        android:text="@string/collageTypes_prompt"
+    />
+    <Spinner
+        android:id="@+id/spinner"
+        android:prompt="@string/collageTypes_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:spinnerMode="dropdown"/>
+    <Button
+        android:text="Make collage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_style"
+        android:textColor="#fff"
+        android:id="@+id/btnMakeCollage"
+        android:textSize="24dp"
+        android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_start_material"
+        android:textAllCaps="false"
+        />
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/collageResultImg"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo3"
+        android:contentDescription="collageImg"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="16px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:padding="16px">
+
+            <Button
+                android:id="@+id/btnSaveCollage"
+                android:textAllCaps="false"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text="Save To Gallery"
+                android:layout_gravity="bottom"
+                android:textColor="#fff"
+                android:background="@drawable/buttons_style"
+			/>
+
+            <Button
+                android:id="@+id/btnExportCollage"
+                android:textAllCaps="false"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text="Export Collage"
+                android:layout_gravity="bottom"
+                android:textColor="#fff"
+                android:background="@drawable/buttons_style"
+			/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCollageBack"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Back"
+            android:layout_gravity="bottom"
+            android:textColor="#fff"
+            android:background="@drawable/buttons_style"
+			/>
+    </LinearLayout>
+
+</LinearLayout>

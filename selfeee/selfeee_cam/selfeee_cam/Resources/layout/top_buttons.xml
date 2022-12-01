@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/RemoveSelected"
+        android:icon="@drawable/baseline_menu_white_18dp"
+        android:showAsAction="ifRoom"
+        android:title="Remove selected images" />
+    <item
+        android:id="@+id/RemoveAll"
+        android:icon="@drawable/baseline_menu_white_18dp"
+        android:showAsAction="ifRoom"
+        android:title="Remove all" />
+</menu>
+
