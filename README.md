@@ -18,4 +18,4 @@ This is a photo app that allows users to create profiles, store photos, and shar
 
 The server-side functionality was implemented with the help of my friend.
 
-~created in 2021 as one of my university projects, cloned in here.
+created in ~2020/2021 as one of my university projects, cloned in here.
