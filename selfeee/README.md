@@ -1,20 +1,22 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Introduction
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This is a photo app that allows users to create profiles, store photos, and share collages. It offers two main features:
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+* **"Collages without Editor"**: Creates collages from multiple photos while preserving their original properties. The app’s logic automatically calculates the best positions for photos based on their dimensions to maintain their integrity when generating the final collage.
+
+* **"Face Similarity"**: This feature lets you compare your face with anyone else's with just one click. The algorithm calculates similarity in percentage by comparing key facial features. By default, it compares your face to Sid Vicious, just to see if you’re a ‘real’ punk! 😄
+
+# Guide:
+
+1. Install the .apk file.
+2. Grant the requested permissions.
+3. Have fun!
+
+# Video Demo:
+
+[Watch the demo](https://github.com/deSantLollipop/selfeee_public/blob/main/video_2022-12-01_17-43-59.mp4)
+*Note: The video needs to be downloaded.*
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+The server-side functionality was implemented with the help of my friend.
