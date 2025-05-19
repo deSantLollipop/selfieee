@@ -8,15 +8,14 @@ This is a photo app that allows users to create profiles, store photos, and shar
 
 # Guide:
 
+0. Generate in VStudio / Contact me to get .apk
 1. Install the .apk file.
 2. Grant the requested permissions.
 3. Have fun!
 
-# Video Demo:
-
-[Watch the demo](https://github.com/deSantLollipop/selfeee_public/blob/main/video_2022-12-01_17-43-59.mp4)
-*Note: The video needs to be downloaded.*
 
 # Contribute
 
 The server-side functionality was implemented with the help of my friend.
+
+~created in 2021 as one of my university projects, cloned in here.
