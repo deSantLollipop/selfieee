@@ -12,11 +12,6 @@ This is a photo app that allows users to create profiles, store photos, and shar
 2. Grant the requested permissions.
 3. Have fun!
 
-# Video Demo:
-
-[Watch the demo](https://github.com/deSantLollipop/selfeee_public/blob/main/video_2022-12-01_17-43-59.mp4)
-*Note: The video needs to be downloaded.*
-
 # Contribute
 
 The server-side functionality was implemented with the help of my friend.
